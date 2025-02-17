@@ -37,5 +37,3 @@ proguard-project.txt
 
 # Project exclude paths
 /.github/
-/app/
-/gradle/

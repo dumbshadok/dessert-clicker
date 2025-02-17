@@ -1,5 +1,3 @@
-import com.android.build.gradle.internal.cxx.logging.lifecycleln
-
 /*
  * Copyright (C) 2023 The Android Open Source Project
  *
@@ -16,10 +14,9 @@ import com.android.build.gradle.internal.cxx.logging.lifecycleln
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id("com.android.application") version "8.8.1" apply false
-    id("com.android.library") version "8.8.1" apply false
-    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
-}
+package com.example.dessertclicker.model
+
+/**
+ * [Dessert] is the data class to represent the Dessert imageId, price, and startProductionAmount
+ */
+data class Dessert(val imageId: Int, val price: Int, val startProductionAmount: Int)

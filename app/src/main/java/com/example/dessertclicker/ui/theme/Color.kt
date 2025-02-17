@@ -1,5 +1,3 @@
-import com.android.build.gradle.internal.cxx.logging.lifecycleln
-
 /*
  * Copyright (C) 2023 The Android Open Source Project
  *
@@ -16,10 +14,18 @@ import com.android.build.gradle.internal.cxx.logging.lifecycleln
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id("com.android.application") version "8.8.1" apply false
-    id("com.android.library") version "8.8.1" apply false
-    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
-}
+package com.example.dessertclicker.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val md_theme_light_primary = Color(0xFF006781)
+val md_theme_light_onPrimary = Color(0xFFFFFFFF)
+val md_theme_light_secondaryContainer = Color(0xFFCFE6F1)
+val md_theme_light_onSecondaryContainer = Color(0xFF071E26)
+val md_theme_light_background = Color(0xFFFBFCFE)
+
+val md_theme_dark_primary = Color(0xFF5FD4FD)
+val md_theme_dark_onPrimary = Color(0xFF003544)
+val md_theme_dark_secondaryContainer = Color(0xFF354A53)
+val md_theme_dark_onSecondaryContainer = Color(0xFFCFE6F1)
+val md_theme_dark_background = Color(0xFF191C1D)
