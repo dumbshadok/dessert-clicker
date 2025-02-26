@@ -1,5 +1,3 @@
-import com.android.build.gradle.internal.cxx.logging.lifecycleln
-
 /*
  * Copyright (C) 2023 The Android Open Source Project
  *
